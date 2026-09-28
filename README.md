@@ -4,6 +4,17 @@ An AutoIt automation script that starts MySQL Workbench, creates a saved databas
 
 > **Important:** The supplied script is published exactly as provided. Its UI coordinates, delays, argument mapping, and workflow have not been changed.
 
+## Supported and validated versions
+
+This repository has been validated only with the following versions:
+
+| Component | Supported version |
+| --- | --- |
+| AutoIt | **v3.3.18.0** |
+| MySQL Workbench | **26.7.0.0** |
+
+Do not assume the fixed coordinates, window behavior, or timing will work unchanged with a different AutoIt or MySQL Workbench version. Before deployment, test the exact version pair above in the same screen resolution, display-scaling, theme, and RemoteApp/RDS configuration. If either application is upgraded or downgraded, revalidate the entire workflow in a non-production environment before use.
+
 ## Prerequisites
 
 - Windows with [AutoIt v3](https://www.autoitscript.com/site/autoit/) installed, or a compiled copy of the script.
